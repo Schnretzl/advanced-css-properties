@@ -10,3 +10,25 @@ a:hover {
     color: red;
     background-color: yellow;
 }
+
+/* Task 2: Animated Button on Click */
+
+button {
+    transition: transform 0.3s;
+}
+
+button:active {
+    animation: enlarge 0.3s ease forwards;
+}
+
+@keyframes enlarge {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
