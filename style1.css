@@ -1,11 +1,15 @@
-body { 
-    background-color: lightgreen;
-}
-
 /* 1. Enhancing Web Design with RGBA Colors */
 /* Task 1: Apply RGBA Background Colors */
 
 .background-fade {
     background-color: rgba(0, 80, 255, .3);
     min-height: 100px;
+}
+
+/* Task 2: Enhance Text Visibility with RGBA */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px black;
+    color: white;
 }
