@@ -1,0 +1,12 @@
+/* 2. Creating Interactive Web Elements with CSS Animations and Transitions */
+/* Task 1: Smooth Hover Transition for Links */
+
+a {
+    transition: color 1s;
+    transition: background-color 1s;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
